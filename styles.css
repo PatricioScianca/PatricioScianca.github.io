@@ -36,6 +36,7 @@ Yatra One: font-family: 'Yatra One';
     margin-bottom: 20px;
 }
 
+
 .navegar-niveles{
     width: 5%;
     height: fit-content;
@@ -45,6 +46,7 @@ Yatra One: font-family: 'Yatra One';
     margin-bottom: 10px;
     list-style: none;
 }
+
 .boton-navegacion{
     width: 90%;
     margin: 5%;
@@ -54,11 +56,23 @@ Yatra One: font-family: 'Yatra One';
     border-radius: 5px;
 
     text-align: justify;
+    display: block;
+    cursor: pointer;
+}
+.boton-navegacion:active{
+    background: #dddddd;
+}
+.boton-navegacion--active{
+    background: #cfcfcf;
+    border-right: 4px solid #444c7c;
 }
 
-.tablas{
+.tabs__content{
     float: right;
     width: 95%;
+}
+.tabs__content--active{
+    display: block;
 }
 
 .table-content{
