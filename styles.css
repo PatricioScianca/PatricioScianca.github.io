@@ -37,7 +37,7 @@ Yatra One: font-family: 'Yatra One';
 }
 
 .navegar-niveles{
-    width: 4%;
+    width: 5%;
     height: fit-content;
     float: left;
 }
@@ -45,19 +45,20 @@ Yatra One: font-family: 'Yatra One';
     margin-bottom: 10px;
     list-style: none;
 }
-.navegar-niveles ul li{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.boton-navegacion{
+    width: 90%;
+    margin: 5%;
+    padding: 10%;
 
     border: 1px solid #444c7c;
     border-radius: 5px;
 
-    text-align: center;
+    text-align: justify;
 }
 
-#cantrips{
+.tablas{
     float: right;
-    width: 95.8%;
+    width: 95%;
 }
 
 .table-content{
@@ -70,7 +71,7 @@ Yatra One: font-family: 'Yatra One';
     border-collapse: collapse;
     border-spacing: 0;
 
-    text-align: left;
+    text-align: justify;
 }
 .table-content tr th{
     padding: 8px;
